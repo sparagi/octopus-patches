@@ -1,6 +1,14 @@
 MIT License
 
 Copyright (c) 2006 Bren Larcom
+Contributions copyright (c) their individual CONTRIBUTORS
+
+NOTE: These and following contributions are not on trunk because no one has
+researched the intended licenses of contributors other than Bren.  These
+contributions were imported from the Trike repository on SqueakSource, which
+was marked MIT license, but the license status is vague due to technical
+details of the Monticello file format and the fact that new contributions
+were not implemented as extensions.  Beware.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
