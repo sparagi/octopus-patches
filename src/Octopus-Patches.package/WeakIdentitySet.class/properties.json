@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WeakSet",
+	"category" : "Octopus-Patches",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WeakIdentitySet",
+	"type" : "normal"
+}
