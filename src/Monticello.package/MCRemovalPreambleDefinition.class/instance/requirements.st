@@ -1,3 +1,3 @@
 comparing
 requirements
-	^ (Array with: #postscript with: #everything)
+	^ (Array with: #everything)

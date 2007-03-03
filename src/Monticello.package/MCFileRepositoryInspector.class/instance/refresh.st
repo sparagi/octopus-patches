@@ -24,7 +24,7 @@ refresh
 						ifTrue: [false]
 						ifFalse: [inherited add: heir name. true]]].
 			latest := (versions select: [:v | v first = each package name])	
-				detectMax: [:v | v third].
+				detectMax: [:v | | n | n := v third.  n = '' ifTrue: [0] ifFalse: [n]].
 			(latest notNil and: [
 				each ancestors allSatisfy: [:ancestor |
 					av := ((ancestor name copyAfterLast: $-) copyAfter: $.) asInteger.

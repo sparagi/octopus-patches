@@ -1,3 +1,3 @@
 comparing
 requirements
-	^ (Array with: #preamble with: #everything)
+	^ (Array with: #everything)
