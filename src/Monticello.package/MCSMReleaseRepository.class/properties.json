@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "MCWriteOnlyRepository",
+	"category" : "Monticello-Repositories",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"packageName",
+		"user",
+		"password"
+	],
+	"name" : "MCSMReleaseRepository",
+	"type" : "normal"
+}

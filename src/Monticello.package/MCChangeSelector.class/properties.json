@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MCPatchBrowser",
+	"category" : "Monticello-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"kept"
+	],
+	"name" : "MCChangeSelector",
+	"type" : "normal"
+}

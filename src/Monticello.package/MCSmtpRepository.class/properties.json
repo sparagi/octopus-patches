@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MCWriteOnlyRepository",
+	"category" : "Monticello-Repositories",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"email"
+	],
+	"name" : "MCSmtpRepository",
+	"type" : "normal"
+}

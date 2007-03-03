@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MCVersionHistoryBrowser",
+	"category" : "Monticello-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MCWorkingHistoryBrowser",
+	"type" : "normal"
+}

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Monticello-Repositories",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Settings"
+	],
+	"instvars" : [
+		"creationTemplate",
+		"storeDiffs"
+	],
+	"name" : "MCRepository",
+	"type" : "normal"
+}

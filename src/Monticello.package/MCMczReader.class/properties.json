@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MCVersionReader",
+	"category" : "Monticello-Storing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"zip",
+		"infoCache"
+	],
+	"name" : "MCMczReader",
+	"type" : "normal"
+}

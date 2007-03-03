@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "MCRepository",
+	"category" : "Monticello-Repositories",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"hostname",
+		"port",
+		"connection"
+	],
+	"name" : "MCGOODSRepository",
+	"type" : "normal"
+}

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "MCTool",
+	"category" : "Monticello-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ancestry",
+		"index",
+		"repositoryGroup",
+		"package",
+		"infos"
+	],
+	"name" : "MCVersionHistoryBrowser",
+	"type" : "normal"
+}

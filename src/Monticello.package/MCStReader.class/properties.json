@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MCSnapshotReader",
+	"category" : "Monticello-Chunk Format",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MCStReader",
+	"type" : "normal"
+}

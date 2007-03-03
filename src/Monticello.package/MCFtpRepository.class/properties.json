@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "MCFileBasedRepository",
+	"category" : "Monticello-Repositories",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"host",
+		"directory",
+		"user",
+		"password",
+		"connection"
+	],
+	"name" : "MCFtpRepository",
+	"type" : "normal"
+}

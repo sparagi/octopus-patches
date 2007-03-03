@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MCTool",
+	"category" : "Monticello-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"version"
+	],
+	"name" : "MCVersionInspector",
+	"type" : "normal"
+}

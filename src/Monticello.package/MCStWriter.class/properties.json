@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MCWriter",
+	"category" : "Monticello-Chunk Format",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"initStream"
+	],
+	"name" : "MCStWriter",
+	"type" : "normal"
+}

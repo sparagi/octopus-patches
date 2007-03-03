@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "",
+	"super" : "MCVersionInspector",
+	"category" : "Monticello-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Order"
+	],
+	"instvars" : [
+		"repository",
+		"versions",
+		"loaded",
+		"newer",
+		"inherited",
+		"selectedPackage",
+		"selectedVersion",
+		"order",
+		"versionInfo"
+	],
+	"name" : "MCFileRepositoryInspector",
+	"type" : "normal"
+}

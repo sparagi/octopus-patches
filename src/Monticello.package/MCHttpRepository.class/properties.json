@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "MCFileBasedRepository",
+	"category" : "Monticello-Repositories",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"location",
+		"user",
+		"password",
+		"readerCache"
+	],
+	"name" : "MCHttpRepository",
+	"type" : "normal"
+}

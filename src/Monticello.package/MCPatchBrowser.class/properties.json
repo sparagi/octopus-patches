@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MCCodeTool",
+	"category" : "Monticello-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selection"
+	],
+	"name" : "MCPatchBrowser",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Notification",
+	"category" : "Monticello-Versioning",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"patch",
+		"label"
+	],
+	"name" : "MCChangeSelectionRequest",
+	"type" : "normal"
+}

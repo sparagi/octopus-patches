@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MCFileBasedRepository",
+	"category" : "Monticello-Repositories",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"directory"
+	],
+	"name" : "MCDirectoryRepository",
+	"type" : "normal"
+}

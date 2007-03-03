@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MCRepository",
+	"category" : "Monticello-Repositories",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MCWriteOnlyRepository",
+	"type" : "normal"
+}

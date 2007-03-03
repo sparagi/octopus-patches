@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MCTool",
+	"category" : "Monticello-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"message"
+	],
+	"name" : "MCSaveVersionDialog",
+	"type" : "normal"
+}

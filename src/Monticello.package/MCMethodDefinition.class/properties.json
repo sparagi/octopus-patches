@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "MCDefinition",
+	"category" : "Monticello-Modeling",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Definitions"
+	],
+	"instvars" : [
+		"classIsMeta",
+		"source",
+		"category",
+		"selector",
+		"className",
+		"timeStamp"
+	],
+	"name" : "MCMethodDefinition",
+	"type" : "normal"
+}

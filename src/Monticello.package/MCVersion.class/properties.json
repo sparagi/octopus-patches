@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Monticello-Versioning",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"package",
+		"info",
+		"snapshot",
+		"dependencies"
+	],
+	"name" : "MCVersion",
+	"type" : "normal"
+}

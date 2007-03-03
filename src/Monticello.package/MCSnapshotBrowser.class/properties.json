@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "MCCodeTool",
+	"category" : "Monticello-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"categorySelection",
+		"classSelection",
+		"protocolSelection",
+		"methodSelection",
+		"switch"
+	],
+	"name" : "MCSnapshotBrowser",
+	"type" : "normal"
+}
