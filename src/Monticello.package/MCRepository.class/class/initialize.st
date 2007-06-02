@@ -1,5 +1,4 @@
 class initialization
 initialize
 	"self initialize"
-
-	ExternalSettings registerClient: self.
+	ExternalSettings registeredClients remove: self ifAbsent:[].

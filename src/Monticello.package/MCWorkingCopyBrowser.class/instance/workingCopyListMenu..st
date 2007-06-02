@@ -4,11 +4,13 @@ workingCopyListMenu: aMenu
 	self fillMenu: aMenu fromSpecs:
 		#(('add required package' #addRequiredPackage)
 			('clear required packages' #clearRequiredPackages)
+			('add repository...' #addPackageRepository)
 			('browse package' #browseWorkingCopy)
 			('view changes' #viewChanges)
 			('view history' #viewHistory)
 			('recompile package' #recompilePackage)
 			('revert package...' #revertPackage)
+			('trim ancestry' #trimAncestry)
 			('unload package' #unloadPackage)
 			('delete working copy' #deleteWorkingCopy)).
 	(Smalltalk includesKey: #SARMCPackageDumper) ifTrue: [

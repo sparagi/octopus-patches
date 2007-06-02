@@ -8,7 +8,6 @@
 	"instvars" : [
 		"location",
 		"user",
-		"password",
 		"readerCache"
 	],
 	"name" : "MCHttpRepository",

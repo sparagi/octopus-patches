@@ -1,4 +1,4 @@
 required
 flushCache
 	super flushCache.
-	readerCache := nil.
+	readerCache _ nil

@@ -9,7 +9,6 @@
 		"host",
 		"directory",
 		"user",
-		"password",
 		"connection"
 	],
 	"name" : "MCFtpRepository",

@@ -5,5 +5,7 @@ versionReaderForFileNamed: aString
 		[self resizeCache: readerCache.
 		super versionReaderForFileNamed: aString do:
 			[:r |
-			r ifNotNil: [readerCache at: aString put: r]]]
+			"do not cache configuration files"
+			('*.mcm' match: aString) ifTrue: [r] ifFalse: [
+			r ifNotNil: [readerCache at: aString put: r]]]]
 	

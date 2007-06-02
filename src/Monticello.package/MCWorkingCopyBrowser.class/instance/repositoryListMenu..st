@@ -5,10 +5,12 @@ repositoryListMenu: aMenu
 		#(('open repository' #openRepository)
 		    ('edit repository info' #editRepository)
 		   ('add to package...' #addRepositoryToPackage)
+		   ('show feed' #showFeed)
 		   ('remove repository' #removeRepository)	
 		   ('load repositories' #loadRepositories)	
 		   ('save repositories' #saveRepositories)
 		   ('flush cached versions' #flushAllCaches)	
+		   ('flush passwords' #flushPasswords)	
 		).
 		aMenu
 		add: (self repository alwaysStoreDiffs

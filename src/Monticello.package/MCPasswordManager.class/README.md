@@ -1,0 +1,1 @@
+Simple password manager to avoid storing passwords in the image.

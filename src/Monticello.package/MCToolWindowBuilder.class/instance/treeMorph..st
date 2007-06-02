@@ -1,6 +1,6 @@
 as yet unclassified
 treeMorph: listSymbol
 	^ self
-		treeMorph: (listSymbol, 'Tree') asSymbol
-		selection: (listSymbol, 'SelectionWrapper') asSymbol
+		treeMorph: listSymbol
+		selection: listSymbol
 		menu: (listSymbol, 'TreeMenu:') asSymbol

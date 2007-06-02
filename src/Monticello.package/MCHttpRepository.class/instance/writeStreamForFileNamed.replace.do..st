@@ -1,14 +1,15 @@
 required
 writeStreamForFileNamed: aString replace: ignoreBoolean do: aBlock
-	| stream response |
-	stream := RWBinaryOrTextStream on: String new.
+	| stream response data statusLine code |
+	stream _ RWBinaryOrTextStream on: String new.
 	aBlock value: stream.
-	response := HTTPSocket
-					httpPut: stream contents
+	data _ stream contents.
+	response _ HTTPSocket
+					httpPut: data
 					to: (self urlForFileNamed: aString)
 					user: self user
 					passwd: self password.
-
-	(#( 'HTTP/1.1 201 ' 'HTTP/1.1 200 ' 'HTTP/1.0 201 ' 'HTTP/1.0 200 ')
-		anySatisfy: [:code | response beginsWith: code ])
+	statusLine _ response copyUpTo: Character cr.
+	code := (statusLine findTokens: ' ') second asInteger.
+	(#(200 201) includes: code)
 			ifFalse: [self error: response].

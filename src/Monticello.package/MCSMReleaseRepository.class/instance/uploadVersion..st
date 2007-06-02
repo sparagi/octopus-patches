@@ -1,12 +1,12 @@
 as yet unclassified
 uploadVersion: aVersion
 	| result stream |
-	result := HTTPSocket
+	result _ HTTPSocket
 		httpPut: (self stringForVersion: aVersion)
 		to: self squeakMapUrl, '/upload/', aVersion fileName
 		user: user
-		passwd: password.
+		passwd: self password.
 	self checkResult: result.
-	stream := result readStream.
+	stream _ result readStream.
 	stream upToAll: 'http://'.
 	^ 'http://', stream upToEnd

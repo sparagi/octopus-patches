@@ -4,9 +4,7 @@
 	"category" : "Monticello-Repositories",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"Settings"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"creationTemplate",
 		"storeDiffs"

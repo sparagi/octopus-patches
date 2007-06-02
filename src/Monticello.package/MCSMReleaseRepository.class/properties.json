@@ -7,8 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"packageName",
-		"user",
-		"password"
+		"user"
 	],
 	"name" : "MCSMReleaseRepository",
 	"type" : "normal"

@@ -1,7 +1,7 @@
 as yet unclassified
 clientDo: aBlock
 	| client |
-	client := FTPClient openOnHostNamed: host.
-	client loginUser: user password: password.
+	client _ FTPClient openOnHostNamed: host.
+	client loginUser: user password: self password.
 	directory isEmpty ifFalse: [client changeDirectoryTo: directory].
 	^ [aBlock value: client] ensure: [client close]

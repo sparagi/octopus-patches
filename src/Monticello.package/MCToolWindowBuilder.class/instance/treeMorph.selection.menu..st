@@ -1,3 +1,3 @@
 as yet unclassified
 treeMorph: listSymbol selection: selectionSymbol menu: menuSymbol
-	self notYetImplemented
+	^self treeMorph: listSymbol selection: selectionSymbol menu: menuSymbol keystroke: nil
