@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "PackageInfo-Base",
+	"classinstvars" : [
+		"default"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"packageName",
+		"methodCategoryPrefix",
+		"preamble",
+		"postscript",
+		"preambleOfRemoval",
+		"postscriptOfRemoval"
+	],
+	"name" : "PackageInfo",
+	"type" : "normal"
+}
