@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "BEL 10/7/2008 21:35",
+	"super" : "Object",
+	"category" : "Octopus-Patches",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model",
+		"getListSelector",
+		"setListSelector",
+		"selectionIndex"
+	],
+	"name" : "PluggableListModel",
+	"type" : "normal"
+}
